@@ -1,0 +1,19 @@
+# Core scientific stack (compatible pair to avoid ABI errors)
+numpy==1.23.5
+pandas==1.5.3
+
+# App & tools
+streamlit==1.37.0
+PyPDF2==3.0.1
+google-generativeai==0.7.2
+python-dotenv==1.0.1
+
+# LangChain & community integrations
+langchain==0.2.5
+langchain-community==0.2.5
+
+# Vector DB
+chromadb==0.5.3
+
+# Text-to-Speech
+gTTS==2.5.3
