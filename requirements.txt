@@ -1,18 +1,8 @@
-# Core scientific stack (compatible pair to avoid ABI errors)
-numpy==1.23.5
-pandas==1.5.3
-
-# App & tools
-streamlit==1.37.0
-PyPDF2==3.0.1
-google-generativeai==0.7.2
-python-dotenv==1.0.1
-openpyxl==3.1.5
-
-# Text-to-Speech
-gTTS==2.5.3
-
-# (Optional) If you plan to extend with retrieval or chains later:
-# langchain==0.2.5
-# langchain-community==0.2.5
-# chromadb==0.5.3
+# Streamlit app + Gemini + file parsing + TTS (Python 3.13 friendly)
+streamlit>=1.37.0
+google-generativeai>=0.7.2
+PyPDF2>=3.0.1
+pandas>=2.3.0
+openpyxl>=3.1.0
+gTTS>=2.5.0
+python-dotenv>=1.0.0
